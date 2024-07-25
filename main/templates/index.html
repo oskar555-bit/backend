@@ -1,0 +1,205 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="stylesheet" href="{% static 'menu.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">FIRST SEASON</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__ item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__ item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Digital</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__ item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Advertising</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__ item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Entertainment</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__ item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Gaming</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+
+                <div class="nav__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+
+                    <a href="https://www.twitter.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://pinterest.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-pinterest-line"></i>
+                    </a>
+                </div>
+                <a href="login.html"><button class="login">Login</button></a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <section class = "blog" id = "blog">
+        <div class = "container">
+          <div class = "title">
+            <h2>Latest Blog</h2>
+            <p>recent blogs about art & design</p>
+          </div>
+          <div class = "blog-content">
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-1.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-2.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-3.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-4.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-5.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "{% static "blog-p-6.jpg" %}" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+      
+
+
+      <footer>
+        <div class = "social-links">
+            <a href="https://www.facebook.com/" target="_blank" class="nav__social-link">
+                <i class="ri-facebook-line"></i>
+            </a>
+
+            <a href="https://www.twitter.com/" target="_blank" class="nav__social-link">
+                <i class="ri-twitter-line"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://pinterest.com/" target="_blank" class="nav__social-link">
+                <i class="ri-pinterest-line"></i>
+            </a>
+        </div>
+        <span>Art.Design Blog Page</span>
+      </footer>
+    <script src="main.js"></script>
+</body>
+</html>
